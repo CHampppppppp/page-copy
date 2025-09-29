@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  padding: 30px;
+  background-color: hsl(13, 31%, 94%);
+  color: hsl(14, 65%, 9%);
+}

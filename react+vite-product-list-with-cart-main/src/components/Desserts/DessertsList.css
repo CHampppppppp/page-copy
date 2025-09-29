@@ -1,0 +1,121 @@
+.itemListContainer{
+  display:grid;
+  grid-template-columns: repeat(3,30%);
+  gap: 10px;
+  width: 100%;
+}
+
+.itemCard, .itemCardActive{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  /* border: 1px solid #000; */
+  transition: all 0.3s ease-in-out;
+  scale: 1;
+}
+
+.itemCardActive{
+  scale: 0.98;
+  transition: all 0.3s ease-in-out;
+}
+
+.itemCard img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.itemCardActive img{
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid hsl(14, 86%, 42%);
+}
+
+.buttonContainerActive{
+  margin-top: -20px;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  gap:5px;
+  background-color: hsl(14, 86%, 42%);
+  border-radius: 20px;
+  padding:8px;
+  margin-bottom: 10px;
+}
+
+.buttonContainerActive button{
+  width: 15%;
+  background-color: #ffffff00;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 50%;
+  color:white;
+}
+
+.buttonContainerActive button:hover{
+  background-color: #fff;
+  color:hsl(14, 86%, 42%);
+}
+
+.buttonContainerActive p{
+  color:white;
+}
+
+.buttonContainer{
+  margin-top: -20px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  gap:5px;
+  background-color: white;
+  color:black;
+  border-radius: 20px;
+  padding:8px;
+  border: 1px solid hsl(14, 86%, 42%);
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.buttonContainer img{
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff00;
+}
+
+.itemButtonAdd{
+  border: none;
+  background-color: transparent;
+  color:hsl(14, 65%, 9%);
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.buttonContainer:hover .itemButtonAdd{
+  color:hsl(14, 86%, 42%);
+}
+
+
+.itemInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-right:auto;
+}
+
+.itemCategory{
+  color:hsl(7, 20%, 60%);
+  font-size: 12px;
+}
+
+.itemName{
+  color:hsl(14, 65%, 9%);
+  font-size: 16px;
+}
+
+.itemPrice{
+  color:hsl(14, 86%, 42%);
+  font-size: 14px;
+}

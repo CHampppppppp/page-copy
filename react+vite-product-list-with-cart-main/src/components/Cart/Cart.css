@@ -1,0 +1,57 @@
+.Cart{
+  margin-top: 20px;
+  margin-left: -30px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border-radius: 10px;
+  background-color: hsl(20, 50%, 98%);
+  width: 30%;
+  height:auto;
+  padding: 30px;
+}
+
+.Cart h2{
+  font-size:40px;
+  color:hsl(14, 86%, 42%);
+  margin-bottom: 20px;
+}
+
+.orderInfo{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.orderInfo p{
+  color:hsl(12, 20%, 44%);
+}
+
+.totalPrice{
+  margin-left: auto;
+  font-size:30px;
+  color:hsl(14, 65%, 9%);
+  font-style: bold;
+  font-weight: 700;
+}
+
+.hint{
+  width: 100%;
+  color:hsl(12, 20%, 44%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+  border-radius: 10px;
+  background-color: hsl(13, 31%, 94%);
+  padding:10px;
+  margin-bottom: 20px;
+  font-size:14px;
+}
+
+.confirmBtn{
+  width: 80%;
+  
+}
